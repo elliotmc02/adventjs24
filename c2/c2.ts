@@ -1,4 +1,3 @@
-// @ts-ignore (for duplicate function)
 function createFrame(names: string[]): string {
   const maxLength: number = Math.max(...names.map(name => name.length));
   const width: number = maxLength + 4;
